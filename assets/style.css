@@ -63,6 +63,7 @@ body {
 }
 #about-me {
   flex: 2;
+  object-fit: cover;
 }
 .about-me__title {
   margin-top: 1em;
@@ -112,6 +113,10 @@ body {
   height: 100%;
   object-fit: cover;
   padding: 0.5em;
+}
+.nina-icon {
+  max-width: 100%;
+  height: auto;
 }
 .mg-prev,
 .mg-next {
